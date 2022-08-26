@@ -2,6 +2,7 @@ package org.example;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.LinkedList;
 
 public class MouseInput extends MouseAdapter {
     Handler handler;
@@ -16,7 +17,8 @@ public class MouseInput extends MouseAdapter {
         int mx = (int) (e.getX() + camera.getX());
         int my = (int) (e.getY() + camera.getY());
 
-        for (GameObject object : handler.objects) {
+        LinkedList<GameObject> objects = handler.objects;
+        for (GameObject object : objects) {
             if (object.getId() == ID.Player) {
                 handler.add(new Bullet(object.getX() + 16, object.getY() + 24, ID.Bullet, handler, mx, my));
             }

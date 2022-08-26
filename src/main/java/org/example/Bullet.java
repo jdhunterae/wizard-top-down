@@ -4,7 +4,7 @@ import java.awt.*;
 import java.util.LinkedList;
 
 public class Bullet extends GameObject {
-    private Handler handler;
+    private final Handler handler;
 
     public Bullet(int x, int y, ID id, Handler handler, int mx, int my) {
         super(x, y, id);
@@ -20,8 +20,7 @@ public class Bullet extends GameObject {
         y += velY;
 
         LinkedList<GameObject> objects = handler.objects;
-        for (int i = 0; i < objects.size(); i++) {
-            GameObject object = objects.get(i);
+        for (GameObject object : objects) {
             if (object.getId() == ID.Block) {
                 if (getBounds().intersects(object.getBounds())) {
                     handler.remove(this);

@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b298702b-61aa-4e17-9ca1-bd968751ed3a" name="Changes" comment="Implemented simple collision for player character and walls through video 7 of the Wizard topdown shooter series">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MouseInput.java" afterDir="false" />
+    <list default="true" id="b298702b-61aa-4e17-9ca1-bd968751ed3a" name="Changes" comment="Added simple projectile system with mouseListener through video 8 of the Wizard topdown shooter series">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MouseInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MouseInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wizard_level.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/wizard_level.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661531930101</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added simple projectile system with mouseListener through video 8 of the Wizard topdown shooter series">
+      <created>1661532887384</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661532887384</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +152,7 @@
     <MESSAGE value="Buffered Image Loader to read simple png game maps and populate them with walls and the player through video 5 of the Wizard topdown shooter series" />
     <MESSAGE value="Implemented camera class to follow player and scroll level as we move. no collision yet through video 6 of the Wizard topdown shooter series" />
     <MESSAGE value="Implemented simple collision for player character and walls through video 7 of the Wizard topdown shooter series" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented simple collision for player character and walls through video 7 of the Wizard topdown shooter series" />
+    <MESSAGE value="Added simple projectile system with mouseListener through video 8 of the Wizard topdown shooter series" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added simple projectile system with mouseListener through video 8 of the Wizard topdown shooter series" />
   </component>
 </project>

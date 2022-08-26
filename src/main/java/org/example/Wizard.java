@@ -1,6 +1,7 @@
 package org.example;
 
 import java.awt.*;
+import java.util.LinkedList;
 
 public class Wizard extends GameObject {
     Handler handler;
@@ -14,7 +15,7 @@ public class Wizard extends GameObject {
     public void tick() {
         x += velX;
         y += velY;
-        
+
         collision();
 
         if (handler.isUp()) velY = -5;
@@ -31,9 +32,8 @@ public class Wizard extends GameObject {
     }
 
     private void collision() {
-        for (int i = 0; i < handler.objects.size(); i++) {
-            GameObject object = handler.objects.get(i);
-
+        LinkedList<GameObject> objects = handler.objects;
+        for (GameObject object : objects) {
             if (object.getId() == ID.Block) {
                 if (getBounds().intersects(object.getBounds())) {
                     x += velX * -1;
@@ -46,7 +46,6 @@ public class Wizard extends GameObject {
     @Override
     public void render(Graphics g) {
         g.setColor(Color.WHITE);
-
         g.fillRect(x, y, 32, 48);
     }
 
