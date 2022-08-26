@@ -22,6 +22,7 @@ public class Game extends Canvas implements Runnable {
 
         handler = new Handler();
         this.addKeyListener(new KeyInput(handler));
+        this.addMouseListener(new MouseInput(handler, camera));
 
         BufferedImageLoader loader = new BufferedImageLoader();
         level = loader.loadImage("/wizard_level.png");
@@ -103,7 +104,7 @@ public class Game extends Canvas implements Runnable {
         handler.render(g);
 
         g2d.translate(camera.getX(), camera.getY());
-        
+
         g.dispose();
         bs.show();
     }
