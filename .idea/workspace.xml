@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b298702b-61aa-4e17-9ca1-bd968751ed3a" name="Changes" comment="setup entity ID system through video 3 of the Wizard topdown shooter series">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/KeyInput.java" afterDir="false" />
+    <list default="true" id="b298702b-61aa-4e17-9ca1-bd968751ed3a" name="Changes" comment="Buffered Image Loader to read simple png game maps and populate them with walls and the player through video 5 of the Wizard topdown shooter series">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BufferedImageLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wizard_level.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wizard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Handler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +42,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/u-dev/top-down-game/src/main/resources"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\u-dev\top-down-game\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Game" />
@@ -89,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661475890982</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="KeyInput reader and player Character class through video 4 of the Wizard topdown shooter series">
+      <created>1661477149537</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661477149537</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +118,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial setup through video 2 of the Wizard topdown shooter series" />
     <MESSAGE value="setup entity ID system through video 3 of the Wizard topdown shooter series" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup entity ID system through video 3 of the Wizard topdown shooter series" />
+    <MESSAGE value="KeyInput reader and player Character class through video 4 of the Wizard topdown shooter series" />
+    <MESSAGE value="Buffered Image Loader to read simple png game maps and populate them with walls and the player through video 5 of the Wizard topdown shooter series" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buffered Image Loader to read simple png game maps and populate them with walls and the player through video 5 of the Wizard topdown shooter series" />
   </component>
 </project>
