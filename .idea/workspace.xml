@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b298702b-61aa-4e17-9ca1-bd968751ed3a" name="Changes" comment="Buffered Image Loader to read simple png game maps and populate them with walls and the player through video 5 of the Wizard topdown shooter series">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BufferedImageLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/wizard_level.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Camera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Game.java" afterDir="false" />
     </list>
@@ -101,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661477149537</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Buffered Image Loader to read simple png game maps and populate them with walls and the player through video 5 of the Wizard topdown shooter series">
+      <created>1661530049147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661530049147</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -13,9 +13,12 @@ public class Game extends Canvas implements Runnable {
     private Thread thread;
     private final Handler handler;
     private BufferedImage level = null;
+    private Camera camera;
 
     public Game() {
         new Window(1000, 563, TITLE, this);
+
+        camera = new Camera(0, 0);
 
         handler = new Handler();
         this.addKeyListener(new KeyInput(handler));
@@ -74,6 +77,10 @@ public class Game extends Canvas implements Runnable {
     }
 
     public void tick() {
+        for (GameObject object : handler.objects) {
+            if (object.getId() == ID.Player) camera.tick(object);
+        }
+
         handler.tick();
     }
 
@@ -86,12 +93,17 @@ public class Game extends Canvas implements Runnable {
         }
 
         Graphics g = bs.getDrawGraphics();
+        Graphics2D g2d = (Graphics2D) g;
 
         g.setColor(Color.BLACK);
         g.fillRect(0, 0, 1000, 563);
 
+        g2d.translate(-camera.getX(), -camera.getY());
+
         handler.render(g);
 
+        g2d.translate(camera.getX(), camera.getY());
+        
         g.dispose();
         bs.show();
     }
