@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b298702b-61aa-4e17-9ca1-bd968751ed3a" name="Changes" comment="Buffered Image Loader to read simple png game maps and populate them with walls and the player through video 5 of the Wizard topdown shooter series">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Camera.java" afterDir="false" />
+    <list default="true" id="b298702b-61aa-4e17-9ca1-bd968751ed3a" name="Changes" comment="Implemented camera class to follow player and scroll level as we move. no collision yet through video 6 of the Wizard topdown shooter series">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Wizard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661530049147</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented camera class to follow player and scroll level as we move. no collision yet through video 6 of the Wizard topdown shooter series">
+      <created>1661531125106</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661531125106</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +131,7 @@
     <MESSAGE value="setup entity ID system through video 3 of the Wizard topdown shooter series" />
     <MESSAGE value="KeyInput reader and player Character class through video 4 of the Wizard topdown shooter series" />
     <MESSAGE value="Buffered Image Loader to read simple png game maps and populate them with walls and the player through video 5 of the Wizard topdown shooter series" />
-    <option name="LAST_COMMIT_MESSAGE" value="Buffered Image Loader to read simple png game maps and populate them with walls and the player through video 5 of the Wizard topdown shooter series" />
+    <MESSAGE value="Implemented camera class to follow player and scroll level as we move. no collision yet through video 6 of the Wizard topdown shooter series" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented camera class to follow player and scroll level as we move. no collision yet through video 6 of the Wizard topdown shooter series" />
   </component>
 </project>

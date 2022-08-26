@@ -14,6 +14,8 @@ public class Wizard extends GameObject {
     public void tick() {
         x += velX;
         y += velY;
+        
+        collision();
 
         if (handler.isUp()) velY = -5;
         else if (!handler.isDown()) velY = 0;
@@ -26,6 +28,19 @@ public class Wizard extends GameObject {
 
         if (handler.isLeft()) velX = -5;
         else if (!handler.isRight()) velX = 0;
+    }
+
+    private void collision() {
+        for (int i = 0; i < handler.objects.size(); i++) {
+            GameObject object = handler.objects.get(i);
+
+            if (object.getId() == ID.Block) {
+                if (getBounds().intersects(object.getBounds())) {
+                    x += velX * -1;
+                    y += velY * -1;
+                }
+            }
+        }
     }
 
     @Override
